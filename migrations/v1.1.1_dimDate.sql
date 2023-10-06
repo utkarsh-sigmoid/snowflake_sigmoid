@@ -1,4 +1,4 @@
-Create schema demo1
+Create schema demo1;
 CREATE TABLE STG_dim_Date
 (
 	DateId int NOT NULL,
@@ -32,4 +32,4 @@ CREATE TABLE STG_dim_Date
 	LastDayOfYear date NOT NULL,
 	FirstDayOfNextMonth date NOT NULL,
 	FirstDayOfNextYear date NOT NULL
-)
+);
