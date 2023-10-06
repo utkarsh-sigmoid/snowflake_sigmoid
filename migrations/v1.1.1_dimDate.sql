@@ -1,5 +1,5 @@
-
-CREATE TABLE DEMO.STG_dim_Date
+Create schema demo1
+CREATE TABLE STG_dim_Date
 (
 	DateId int NOT NULL,
 	Date date NOT NULL,
