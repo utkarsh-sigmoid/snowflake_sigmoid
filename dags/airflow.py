@@ -10,6 +10,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
 
+
 # Define default_args with your desired DAG parameters
 default_args = {
     'owner': 'utkarsh',
